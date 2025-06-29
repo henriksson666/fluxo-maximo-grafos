@@ -4,7 +4,7 @@ typedef vector<int> vi;
 
 struct Dinic {
     struct Edge { int to, cap, rev; };
-    vector<vector<Edge>> graph;
+    vector<vector<Edge> > graph;
     vi level, iter;
 
     Dinic(int n) : graph(n), level(n), iter(n) {}
@@ -21,7 +21,8 @@ struct Dinic {
         q.push(s);
         while (!q.empty()) {
             int u = q.front(); q.pop();
-            for (auto &e : graph[u]) {
+            for (size_t i = 0; i < graph[u].size(); ++i) {
+                Edge &e = graph[u][i];
                 if (e.cap > 0 && level[e.to] < 0) {
                     level[e.to] = level[u] + 1;
                     q.push(e.to);

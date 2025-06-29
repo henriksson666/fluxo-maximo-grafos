@@ -9,8 +9,24 @@ Este projeto implementa dois algoritmos clássicos para o problema de fluxo máx
 
 - `edmonds_karp.cpp`: Implementação do algoritmo de Edmonds-Karp.
 - `dinic.cpp`: Implementação do algoritmo de Dinic.
-- `exemplos/`: Exemplos de instâncias de entrada para testar os algoritmos.
+- `main_test.cpp`: Script de teste automatizado que executa ambos algoritmos em vários grafos e salva os resultados.
+- `resultados_teste.txt`: Arquivo gerado automaticamente com as estatísticas dos testes (fluxo máximo e tempo de execução para cada algoritmo e grafo).
+- `exemplos/`: Exemplos de instâncias de entrada para testar os algoritmos manualmente.
 
 ## Como usar
 
-Compile os arquivos `.cpp` e execute conforme necessário, fornecendo as instâncias de entrada do diretório `exemplos/`.
+1. Compile o arquivo de teste automatizado:
+
+   ```sh
+   g++ -O2 -std=c++17 main_test.cpp -o main_test
+   ```
+
+2. Execute o teste:
+
+   ```sh
+   ./main_test
+   ```
+
+3. Consulte o arquivo `resultados_teste.txt` para ver uma tabela comparativa dos algoritmos em diferentes grafos.
+
+O arquivo `resultados_teste.txt` pode ser utilizado diretamente em artigos acadêmicos para análise de desempenho dos algoritmos.

@@ -1,0 +1,29 @@
+Comparação de Algoritmos de Fluxo Máximo
+----------------------------------------
+Testes automáticos com diferentes grafos
+
+Grafo com 6 vértices e 6 arestas
+Fonte: 0, Sorvedouro: 5
+Edmonds-Karp: fluxo max = 0, tempo = 0 ms
+Dinic:        fluxo max = 0, tempo = 0 ms
+
+Grafo com 10 vértices e 26 arestas
+Fonte: 0, Sorvedouro: 9
+Edmonds-Karp: fluxo max = 17, tempo = 0 ms
+Dinic:        fluxo max = 17, tempo = 0 ms
+
+Grafo com 20 vértices e 142 arestas
+Fonte: 0, Sorvedouro: 19
+Edmonds-Karp: fluxo max = 104, tempo = 0 ms
+Dinic:        fluxo max = 104, tempo = 0 ms
+
+Grafo com 50 vértices e 796 arestas
+Fonte: 0, Sorvedouro: 49
+Edmonds-Karp: fluxo max = 140, tempo = 1 ms
+Dinic:        fluxo max = 140, tempo = 0 ms
+
+Grafo com 100 vértices e 3323 arestas
+Fonte: 0, Sorvedouro: 99
+Edmonds-Karp: fluxo max = 299, tempo = 0 ms
+Dinic:        fluxo max = 299, tempo = 1.574 ms
+
