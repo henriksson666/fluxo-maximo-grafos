@@ -1,0 +1,7 @@
+# Exemplo de entrada para alocação de tarefas
+# Formato: n m
+# n = número de tarefas, m = número de trabalhadores
+# Seguido das capacidades das arestas
+3 2
+1 2 1
+2 1 2

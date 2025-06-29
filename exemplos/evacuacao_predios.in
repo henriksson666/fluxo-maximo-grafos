@@ -1,0 +1,7 @@
+# Exemplo de entrada para evacuação de prédios
+# Formato: n m
+# n = número de prédios, m = número de saídas
+# Seguido das capacidades das arestas
+4 2
+3 2 1 4
+2 3 1 2
